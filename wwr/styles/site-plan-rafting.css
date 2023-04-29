@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 header {
-    font-family: 20px;
+    padding: 20px;
     background-color: var(--accent1-color);
 }
 p {
     padding: 25px;
 }
-nav{
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
@@ -42,6 +42,7 @@ nav a {
     text-decoration: none;
     padding: 1rem;
 }
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
