@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 :root {
-    --primary-color: #000000
-    --secondary-color: #F3EFE0
-    --accent1-color: #587B7F
-    --accent2-color: #A41623
+    --primary-color: #000000;
+    --secondary-color: #F3EFE0;
+    --accent1-color: #587B7F;
+    --accent2-color: #A41623;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Poppins', serif;
