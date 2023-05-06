@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #000000;
+    --secondary-color: #F3EFE0;
+    --accent1-color: #587B7F;
+    --accent2-color: #A41623;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Poppins', serif;
+
+    --nav-background-color: #000000;
+    --nav-link-color: #a41623;
+    --nav-hover-link-color: #587b7f;
+    --nav-hover-background-color: #f3efe0;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+.head nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+.head nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+.head nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+.head nav a :hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.head img {
+    position: relative;
+    bottom: 8px;
+    left: 350px;
+    box-shadow: 0 0 30px gray;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+.hero img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    bottom:550px;
+    left: 350px; 
+    color: white;
+    background: rgba(218, 141, 141, 0.801);
+    font-size: 2.1rem;
+    text-align: center;
+}
+.hero article {
+    position: absolute;
+    margin: 50px;
+    right: 5px;
+    bottom: 350px;
+    color: white;
+    background: rgba(127, 221, 213, 0.6);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+      
+}
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+}
