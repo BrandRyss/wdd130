@@ -130,5 +130,6 @@ section img {
 }
   
 section figcaption {
-    text-align: center;
+    display: inline-block;
+    margin: 10px;
 }
