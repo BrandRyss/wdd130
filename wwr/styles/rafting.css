@@ -33,17 +33,23 @@ header {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
 .head nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    margin-right: 10px;
 }
-.head nav a:link, nav a:visited {
+
+.head nav a:link,  .head nav a:visited {
     color: var(--nav-link-color);
 }
-.head nav a :hover {
+
+.head nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
@@ -88,6 +94,41 @@ h1, h2, h3, h4, h5, h6 {
     width: 20%;
     height: auto;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent1-color);
+  padding: 10px;
+}
+
 .sociallinks {
-    text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.sociallinks a {
+  display: inline-block;
+}
+
+.sociallinks img {
+  width: 30px;
+  height: 30px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+section img {
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+  
+section figcaption {
+    text-align: center;
 }
