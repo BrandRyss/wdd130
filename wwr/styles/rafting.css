@@ -133,18 +133,18 @@ footer {
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Add this line to center the content horizontally */
-    align-items: center; /* Add this line to center the content vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 section img {
-    max-width: 100%; /* Change width to max-width to ensure responsiveness */
+    max-width: 100%; 
     height: auto;
-    margin: 20px auto; /* Set margin to auto horizontally and 10px vertically */
+    margin: 20px auto; 
 }
 
 section figcaption {
-    text-align: center; /* Add this line to center the caption text */
+    text-align: center; 
 }
 .grid-layout {
     display: grid;
@@ -154,7 +154,6 @@ section figcaption {
     align-items: center; 
     margin-bottom: 20px;
 }
-
 main {
     padding-top: 20px;
 }
@@ -264,4 +263,30 @@ main {
 }
 .table-heading {
     text-align: right;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: var(--nav-hover-link-color);
+    color: var(--primary-color);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
 }
