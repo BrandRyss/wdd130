@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero h1 {
-    position: absolute;
+    position: relative;
     bottom: 550px;
     left: 350px;
     color: white;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
     margin: 50px;
     right: 5px;
     bottom: 350px;
@@ -114,39 +114,47 @@ footer {
     padding: 10px;
 }
 
-.sociallinks {
+.social-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-}
+  }
+  
+  .social-links a {
+    margin: 0 5px;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+  }
+  
 
-.sociallinks a {
-    display: inline-block;
-}
-
-.sociallinks img {
-    width: 30px;
-    height: 30px;
-}
-
-section {
+  section {
     display: flex;
     flex-wrap: wrap;
-}
-
-section img {
-    width: 80%;
+    justify-content: center; /* Add this line to center the content horizontally */
+    align-items: center; /* Add this line to center the content vertically */
+  }
+  
+  section img {
+    max-width: 100%; /* Change width to max-width to ensure responsiveness */
     height: auto;
-    margin: 10px;
-    justify-content: center;
-}
-
-section figcaption {
-    display: inline-block;
-    margin: 10px;
-}
-
+    margin: 20px auto; /* Set margin to auto horizontally and 10px vertically */
+  }
+  
+  section figcaption {
+    text-align: center; /* Add this line to center the caption text */
+  }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+   
 main {
     padding-top: 20px;
 }
