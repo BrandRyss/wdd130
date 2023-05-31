@@ -68,6 +68,8 @@ header {
 
 
 h1, h2, h3, h4, h5, h6 {
+    display: block;
+    position: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -80,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero h1 {
-    position: relative;
+    position: absolute;
     bottom: 550px;
     left: 350px;
     color: white;
