@@ -9,15 +9,15 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #F3EFE0;
-    --accent1-color: #a2c5c9;
+    --accent1-color: #96e4eb;
     --accent2-color: #A41623;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Poppins', serif;
 
-    --nav-background-color: #000000;
-    --nav-link-color: #eeecec;
-    --nav-hover-link-color: #a2c5c9;
+    --nav-background-color: #272a2c;
+    --nav-link-color: #e9f3f3;
+    --nav-hover-link-color: #96e4eb;
     --nav-hover-background-color: #f3efe0;
 }
 
