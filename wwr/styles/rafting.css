@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     bottom: 550px;
     left: 0px;
-    color: white;
+    color: rgb(37, 33, 33);
     background: rgba(127, 221, 213, 0.6);
     font-size: 2.1rem;
     text-align: center;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px;
     right: 5px;
     bottom: 350px;
-    color: white;
+    color: rgb(29, 21, 21);
     background: rgba(127, 221, 213, 0.6);
     background-repeat: no-repeat;
     background-size: 300px 100px;
@@ -221,7 +221,7 @@ main {
 .contact-form button {
     padding: 10px 20px;
     background-color: var(--accent2-color);
-    color: white;
+    color: rgb(15, 12, 12);
     border: none;
     cursor: pointer;
 }
