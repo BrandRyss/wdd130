@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primary-color: #1d2db8;
+    --primary-color: #9274ad;
     --secondary-color: #F3EFE0;
     --accent1-color: #96e4eb;
     --accent2-color: #A41623;
@@ -17,7 +17,7 @@
 
     --nav-background-color: #272a2c;
     --nav-link-color: #e9f3f3;
-    --nav-hover-link-color: #96e4eb;
+    --nav-hover-link-color: #8a4118;
     --nav-hover-background-color: #f3efe0;
 }
 
@@ -146,9 +146,7 @@ section img {
     margin: 20px auto; 
 }
 
-section figcaption {
-    text-align: center; 
-}
+
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -292,4 +290,7 @@ main {
 
 button {
     margin-top: 10px;
+}
+a {
+    color: #272a2c;
 }
