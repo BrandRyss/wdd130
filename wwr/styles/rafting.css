@@ -7,18 +7,18 @@
 }
 
 :root {
-    --primary-color: #9274ad;
-    --secondary-color: #F3EFE0;
-    --accent1-color: #96e4eb;
-    --accent2-color: #A41623;
+    --primary-color: #080808;
+    --secondary-color: #fdfbfc;
+    --accent1-color: #486874;
+    --accent2-color: #4952a5;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Poppins', serif;
 
     --nav-background-color: #272a2c;
     --nav-link-color: #e9f3f3;
-    --nav-hover-link-color: #8a4118;
-    --nav-hover-background-color: #f3efe0;
+    --nav-hover-link-color: #3e6475;
+    --nav-hover-background-color: #fcfcfc;
 }
 
 body {
@@ -112,7 +112,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: #272a2c;
     color: var(--secondary-color);
     padding: 10px;
 }
@@ -292,5 +292,5 @@ button {
     margin-top: 10px;
 }
 a {
-    color: #272a2c;
+    color: #6fb0f1;
 }
